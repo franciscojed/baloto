@@ -1,0 +1,121 @@
+/*PARA PANTALLA GRANDE*/
+@media (min-width: 801px) {
+
+
+body {
+  font-family: Helvetica;
+  background-color: #2dac13;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: #f3af11; 
+  font-weight: bold;
+}
+
+.flex-section {
+  display: flex; 
+  height: 200px;
+  align-items: center;
+  justify-content: center;  
+}
+
+.flex-section > div {
+  margin: 20px;
+  background-color: #f0d02d;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 100px;
+  text-decoration: underline;
+  box-shadow: 5px 10px 20px black inset;
+  
+}
+
+#bsuper {
+  background-color: #f0202c;
+}
+
+.flex-button {
+  display: flex; 
+  align-items: center;
+  justify-content: center;  
+}
+
+button {
+  height: 45px;
+  width: 190px;
+  font-size: 22px;
+  background-color: #d72f3e;
+  color: white;
+  border-radius: 25px;
+  border: none;  
+}
+
+
+}
+
+
+
+/*PARA PANTALLA PEQUEÑA*/
+@media (max-width: 800px) {  
+
+
+  body {
+    font-family: Helvetica;
+    background-color: #2dac13;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #f3af11; 
+    font-weight: bold;
+  }
+  
+  .flex-section {
+    display: flex; 
+    height: 100px;
+    align-items: center;
+    justify-content: center;  
+  }
+  
+  .flex-section > div {
+    margin: 10px;
+    background-color: #f0d02d;;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    text-decoration: underline;
+    box-shadow: 2.5px 5px 10px black inset;
+    
+  }
+  
+  #bsuper {
+    background-color: #f0202c;
+  }
+  
+  .flex-button {
+    display: flex; 
+    align-items: center;
+    justify-content: center;  
+  }
+  
+  button {
+    height: 22.5px;
+    width: 80px;
+    font-size: 11px;
+    background-color: #d72f3e;
+    color: white;
+    border-radius: 12.5px;
+    border: none;  
+  }
+  
+  
+  }
