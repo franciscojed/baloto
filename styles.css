@@ -1,5 +1,5 @@
 /*PARA PANTALLA GRANDE*/
-@media (min-width: 801px) {
+@media (min-width: 850px) {
 
 
 body {
@@ -12,6 +12,11 @@ h1 {
   font-size: 60px;
   color: #f3af11; 
   font-weight: bold;
+}
+
+span {
+  font-size: 30px;
+  color: whitesmoke;
 }
 
 .flex-section {
@@ -55,13 +60,11 @@ button {
   border: none;  
 }
 
-
 }
 
 
-
 /*PARA PANTALLA PEQUEÑA*/
-@media (max-width: 800px) {  
+@media (max-width: 849px) {  
 
 
   body {
@@ -74,6 +77,11 @@ button {
     font-size: 30px;
     color: #f3af11; 
     font-weight: bold;
+  }
+
+  span {
+    font-size: 15px;
+    color: whitesmoke;
   }
   
   .flex-section {
@@ -115,7 +123,6 @@ button {
     color: white;
     border-radius: 12.5px;
     border: none;  
-  }
-  
+  } 
   
   }
